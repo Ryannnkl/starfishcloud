@@ -51,6 +51,17 @@ export const Section = styled('section', {
 	},
 });
 
+export const Table = styled('div', {
+	display: 'grid',
+	width: '100%',
+	maxWidth: 1024,
+	padding: '0 auto',
+	gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+	gridGap: 20,
+	placeItems: 'center center',
+	alignItems: 'center'
+});
+
 export const Title = styled('h1', {
 	color: '$text',
 	fontWeight: '700',
@@ -100,7 +111,7 @@ export const SubTitle = styled('h2', {
 	},
 });
 
-export const CallToAction = styled('button', {
+export const CallToAction = styled('a', {
 	border: 'none',
 	display: 'flex',
 	gap: 10,
@@ -112,6 +123,7 @@ export const CallToAction = styled('button', {
 	fontSize: '$3',
 	fontWeight: '500',
 	marginY: 20, 
+	textDecoration: 'none',
 	variants: {
 		type: {
 			main: {

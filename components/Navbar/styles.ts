@@ -7,7 +7,7 @@ export const NavBarContainer = styled('header', {
   height: '50px',
   alignItems: 'center',
   justifyContent: 'space-between',
-  borderBottom: '1px solid #222',
   background: '$background',
-  padding: '0 5vw '
+  padding: '0 5vw ',
+  boxShadow: '1px 1px 1px 2px #33333310'
 });
