@@ -43,32 +43,32 @@ export default function Home() {
 					<CardServer
 						name="Recife"
 						number="1"
-						link="https://starfishcloud.com.br:8701/#v1:0:18:4:::::::"
+						link="https://starfishcloud.com.br:8106"
 					/>
 					<CardServer
 						name="João Pessoa"
 						number="2"
-						link="https://starfishcloud.com.br:8702/#v1:0:18:4:::::::"
+						link="https://starfishcloud.com.br:8206/#v1:0:18:4:::::::"
 					/>
 					<CardServer
 						name="Maceio"
 						number="3"
-						link="https://starfishcloud.com.br:8703/#v1:0:18:4:::::::"
+						link="https://starfishcloud.com.br:8306/#v1:0:18:4:::::::"
 					/>
 					<CardServer
 						name="Alagoas"
 						number="4"
-						link="https://starfishcloud.com.br:8704/#v1:0:18:4:::::::"
+						link="https://starfishcloud.com.br:8406/#v1:0:18:4:::::::"
 					/>
 					<CardServer
-						name="nsei"
+						name="Aracaju"
 						number="5"
-						link="https://starfishcloud.com.br:8705/#v1:0:18:4:::::::"
+						link="https://starfishcloud.com.br:8506/#v1:0:18:4:::::::"
 					/>
 					<CardServer
 						name="Salvador"
 						number="6"
-						link="https://starfishcloud.com.br:8706/#v1:0:18:4:::::::"
+						link="https://starfishcloud.com.br:8606/#v1:0:18:4:::::::"
 					/>
 				</Table>
 			</Section>
